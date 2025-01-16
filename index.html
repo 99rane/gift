@@ -44,16 +44,16 @@
 </head>
 <body>
     <h1>Pick Your Gift 💝</h1>
-    <button onclick="showMessage('Cuddles! You’re the best cuddle buddy! 🥰')">Cuddles</button>
-    <button onclick="showMessage('A kiss for the sweetest person ever! 😘')">Kiss</button>
-    <button onclick="showMessage('Hugs to keep you warm and loved! 🤗')">Hug</button>
-    <button onclick="showMessage('Surprise! You also get a cute pussycat! 🐱')">Pussycat</button>
+    <button onclick="showMessage()">Cuddles</button>
+    <button onclick="showMessage()">Kiss</button>
+    <button onclick="showMessage()">Hug</button>
+    <button onclick="showMessage()">Pussycat</button>
     <div class="message" id="message"></div>
 
     <script>
-        function showMessage(giftMessage) {
+        function showMessage() {
             const messageDiv = document.getElementById('message');
-            messageDiv.innerHTML = `<span class="heart">❤</span> ${giftMessage} <span class="heart">❤</span>`;
+            messageDiv.innerHTML = `<span class="heart">❤</span> Surprise! You get all three because you're the best punkemo sama uwu <span class="heart">❤</span>`;
         }
     </script>
 </body>
